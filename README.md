@@ -20,7 +20,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [solution]()
-- Live Site URL: [live]()
+- Live Site URL: [live](https://lackevil.github.io/Blog-preview-card/)
 
 ## My process
 

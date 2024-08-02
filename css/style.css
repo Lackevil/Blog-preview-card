@@ -1,0 +1,125 @@
+/* ----------- Fonts ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+
+/* ----------- Fonts ----------- */
+
+/* ----------- Reset CSS ----------- */
+
+@import url(reset.css);
+
+/* ----------- Reset CSS ----------- */
+
+/* ----------- Variables ----------- */
+
+:root {
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #ffffff;
+}
+
+/* ----------- Variables ----------- */
+
+/* ----------- General ----------- */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: var(--yellow);
+  color: var(--gray-950);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 150%;
+  font-family: "Figtree", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* ----------- General ----------- */
+
+/* ----------- Card ----------- */
+
+.card {
+  box-shadow: 0.8rem 0.8rem 0 0 #000;
+  border: 0.1rem solid var(--color-gray-950);
+  border-radius: 2rem;
+  background: var(--white);
+  padding: clamp(1.4rem, 5vw, 2.4rem);
+  max-width: 38.4rem;
+}
+
+.card__image {
+  margin-bottom: 2.4rem;
+}
+
+.card__image img {
+  display: block;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.card__content {
+  margin-bottom: 2.4rem;
+}
+
+.card__content > *:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.card__category {
+  display: inline-block;
+  border-radius: 0.4rem;
+  background: var(--yellow);
+  padding: 0.4rem 1.2rem;
+  font-weight: 800;
+}
+
+/* .card__date {
+} */
+
+.card__title {
+  display: inline-block;
+  transition: color .2s ease-in-out;
+  font-weight: 800;
+  font-size: clamp(2.1rem, 5vw, 2.4rem);
+}
+
+.card__title:hover {
+  color: var(--yellow);
+}
+
+.card__description {
+  color: var(--gray-500);
+  font-size: 1.6rem;
+}
+
+/* .card__author {
+} */
+
+.author-card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.author-card__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.author-card__name {
+  font-weight: 800;
+}
+
+/* ----------- Card ----------- */
